@@ -5,6 +5,8 @@ public class FloorSquareRoot {
         if (x == 0 || x == 1) return x;
 
 
+
+
         int start = 1, end = x, ans = 0;
         while (start <= end) {
             int mid = (start + end) / 2;
